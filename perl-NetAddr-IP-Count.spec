@@ -12,7 +12,7 @@ Version:	2.01
 Release:	1
 License:	unknown
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/NetAddr/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	daeebeba0f1983f00faba52bbc076872
 URL:		http://search.cpan.org/dist/NetAddr-IP-Count/
 BuildRequires:	perl-devel >= 1:5.8.0
