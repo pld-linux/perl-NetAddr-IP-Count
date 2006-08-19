@@ -48,8 +48,9 @@ rm -rf $RPM_BUILD_ROOT
 
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
-%{__install} -d $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
-%{__install} sample.pl $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}/
+
+install -d $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
+install sample.pl $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
 rm -f $RPM_BUILD_ROOT%{perl_vendorlib}/NetAddr/IP/sample.pl
 
 %clean
