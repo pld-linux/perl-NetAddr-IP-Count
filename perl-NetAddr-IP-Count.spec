@@ -6,7 +6,7 @@
 %define	pdir	NetAddr
 %define	pnam	IP-Count
 Summary:	NetAddr::IP::Count - Count hosts in named subnets
-Summary(pl):	NetAddr::IP::Count - liczenie hostÛw w nazwanych podsieciach
+Summary(pl.UTF-8):   NetAddr::IP::Count - liczenie host√≥w w nazwanych podsieciach
 Name:		perl-NetAddr-IP-Count
 Version:	2.01
 Release:	2
@@ -28,10 +28,10 @@ This module implements a symplistic way to match individual IP
 Addresses to subnets. It can be used to, among other things, help
 analyze HTTPD logs.
 
-%description -l pl
-Ten modu≥ implementuje uproszczony sposÛb dopasowywania poszczegÛlnych
-adresÛw IP do podsieci. Moøe byÊ uøywany m.in. do pomocy przy analizie
-logÛw HTTPD.
+%description -l pl.UTF-8
+Ten modu≈Ç implementuje uproszczony spos√≥b dopasowywania poszczeg√≥lnych
+adres√≥w IP do podsieci. Mo≈ºe byƒá u≈ºywany m.in. do pomocy przy analizie
+log√≥w HTTPD.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
