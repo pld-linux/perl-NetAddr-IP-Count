@@ -9,7 +9,7 @@ Summary:	NetAddr::IP::Count - Count hosts in named subnets
 Summary(pl.UTF-8):	NetAddr::IP::Count - liczenie hostów w nazwanych podsieciach
 Name:		perl-NetAddr-IP-Count
 Version:	2.01
-Release:	2
+Release:	3
 License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
